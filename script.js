@@ -78,7 +78,7 @@ const seriesScore = (DALWins, BOSWins) => {
         return `DAL leads ${DALWins} - ${BOSWins}`;
     }
     else if (DALWins < BOSWins) {
-        return `Bos leads ${BOSWins} - ${DALWins}`;
+        return `BOS leads ${BOSWins} - ${DALWins}`;
     }
     else {
         return `Series tied ${BOSWins} - ${DALWins}`;
